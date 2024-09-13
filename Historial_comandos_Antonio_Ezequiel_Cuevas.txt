@@ -1,0 +1,163 @@
+pwd
+ls
+cd ..
+ls
+cd ubuntu
+whoami
+pwd
+apt update
+sudo apt update
+cd ..
+sudo apt update
+tree
+sudo apt install tree
+tree
+ls
+cd home
+home tree
+cd ..
+home tree
+tree -h
+tree home
+$HOME
+cd $HOME
+pwd
+ls
+cat README
+cat > nashe.txt
+ls
+cat nashe
+cat nashe.txt
+pwd
+cd etc
+ll
+cd..
+cd ..
+ll
+cd ..
+ll
+cd etc
+ll
+cat passwd
+cat passwd-
+cd ..
+shutdown
+-poweroff
+-P
+-poweroff, -P
+-poweroff -P
+poweroff
+sudo poweroff
+ssh keygen
+ssh-keygen
+cd $HOME
+ls
+ll
+cd .ssh
+ls
+ll
+cat id_rsa.pub
+cd $HOME
+dir
+ll
+mkdir repogit
+cd repogit
+ll
+git clone git@github.com:EzeCuevass/TP_AySO.git
+ll
+cd TP_AySO/
+ll
+pwd
+ls -l
+ll
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+ll
+cat datos_usuario.txt 
+git add .
+git config --global user.email "TU-email"
+git config --global user.email "eze.cuevass@gmail.com"
+git config --global user.name "eze.cuevass"
+git commit -m "ADD: 1er Ejercicio sobre datos_usuarios.txt"
+git status
+git push origin main
+cpuinfo
+cpu-info
+cd /proc
+ll
+cat cpuinfo 
+grep "model name"
+grep "model name" cpuinfo 
+grep "model name" cpuinfo head n-1
+grep "model name" cpuinfo | head n-1
+grep "model name" cpuinfo | head n-1 cpuinfo
+head n-1 cpuinfo | grep "model name"
+head n-1 cpuinfo | grep "model name" cpuinfo
+head n-1 cpuinfo | grep "model name"
+cd ..
+pwd
+ll
+cd $HOME
+ll
+cd repogit
+ll
+cd TP_AySO/
+ll
+cat datos_usuario.txt 
+head n-1 /proc/cpuinfo
+head n-1 /proc/cpuinfo | grep "model name"
+head n-1 /proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+cat /etc/passwd
+man grep
+head n-10 /etc/passwd
+grep ! nologin /etc/passwd
+grep ! "nologin" /etc/passwd
+grep ! /etc/passwd nologin
+grep ! /etc/passwd
+grep ! nologin /etc/passwd
+grep N nologin /etc/passwd
+grep ^N nologin /etc/passwd
+grep -v nologin /etc/passwd
+man grep
+grep -v nologin /etc/passwd | head n-10 /etc/passwd
+grep -v nologin /etc/passwd
+sort -h
+sort --h
+sort --help
+grep -v nologin /etc/passwd | sort -k 7
+grep -v nologin /etc/passwd
+grep -v nologin /etc/passwd | sort -k 7
+ll
+grep -v nologin /etc/passwd | sort -k 7 >> datos_usuario.txt 
+cat datos
+cat datos_usuario.txt 
+git add.
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+grep dump traffic
+grep $HOME dump traffic
+tcpdump
+ll
+cat comando_dump_net.txt
+cat comando_dump_net
+ll
+cat > comando_dump_net.txt
+git add .
+git commit -m "ADD: Comando para capturar y analizar el trafico en la red"
+ll
+cat yo.txt >> README.md
+cat > mis_datos.txt
+cat mis_datos.txt 
+cat mis_datos.txt >> README.md
+cat README.md 
+git add .
+git commit -m "docs: datos del alumno"
+history -a
